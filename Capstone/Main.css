@@ -1,0 +1,41 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+#intro{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(8, 8, 8, 0.5)), url('Train.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 14%;
+    padding-left: 2%;
+}
+
+@media only screen and (max-width:600px){
+    #intro{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(8, 8, 8, 0.5)), url('Train.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-top: 14%;
+        padding-left: 2%;
+        
+    }
+    
+
+}
+
+.text{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s all ease-in-out;
+}
+.newtext{
+    opacity: 1;
+    transform: translateY(0px);
+}

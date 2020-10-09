@@ -1,0 +1,118 @@
+/* html,
+body,
+header,
+#content {
+    height: 100%;
+}
+header{
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(8, 8, 8, 0.5)),  url('old6.jpg')  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h2 {
+    font-family: 'Great Vibes', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: rgb(253, 246, 246);
+  }
+
+p{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 600;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: rgb(255, 255, 255);
+} */
+/* @media only screen and (max-width:500px){
+    main{
+        height: 155%;
+    }
+    #content{
+        height: 155%;
+    }
+    h2 {
+        font-family: 'Great Vibes', cursive;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%)translateY(-50%);
+        color: rgb(253, 246, 246);
+      }
+    
+    p{
+        font-family: 'Great Vibes', cursive;
+        font-weight: 600;
+        font-size: 120%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        position: absolute;
+        top: 94%;
+        left: 50%;
+        transform: translateX(-50%)translateY(-50%);
+        color: rgb(255, 255, 255);
+    }
+} */
+
+header{
+    
+    height: 100%;
+    background:  url('old.jpg')  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+nav{
+    opacity: 95%;
+}
+
+.min{
+    min-height:80vh ;
+    opacity: 95%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.max{
+    align-items: center;
+
+}
+
+/* .line{
+    text-align: center;
+  display: block;
+  line-height: 1px;
+  height: 1px;
+  margin: 2rem 0;
+  background: #000000;
+} */
+
+
+.text{
+    align-items: center;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.9s all ease-in-out;
+}
+.newtext{
+    opacity: 1;
+    transform: translateY(0px);
+}
